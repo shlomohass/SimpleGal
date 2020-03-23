@@ -1,0 +1,53 @@
+.simgal {
+
+}
+.simgal .sg_display {
+  position: relative;
+  box-sizing: border-box;
+  background: #fafafa;
+  border: 1px solid #dfdfdf;
+  -webkit-box-shadow: 0px 0px 10px 0px #c1c1c1;
+  -moz-box-shadow: 0px 0px 10px 0px #c1c1c1;
+  box-shadow: 0px 0px 10px 0px #c1c1c1;
+  list-style: none;
+  margin: 0;
+}
+.simgal .sg_display li {
+  position: absolute;
+  box-sizing: border-box;
+  background-position: top left;
+  background-size: cover;
+  background-repeat: no-repeat;
+  transition-property: opacity;
+  transition-duration: 0.5s;
+  transition-timing-function: ease-in-out;
+  opacity : 0;
+}
+.simgal li.sg_fadeIn {
+  opacity : 1 !important;
+}
+.simgal .sg_thumbs {
+  box-sizing: border-box;
+  list-style: none;
+  margin: 0;
+  font-size: 0;
+  padding: 30px 0px;
+  text-align: center;
+}
+.simgal .sg_thumbs li {
+  display: inline-block;
+  box-sizing: border-box;
+  width: 90px;
+  height: 90px;
+  background-position: top left;
+  background-size: cover;
+  background-repeat: no-repeat;
+  cursor: pointer;
+  transition-property: opacity;
+  transition-duration: 0.5s;
+  transition-timing-function: ease-in-out;
+  opacity: 0.5; 
+}
+.simgal .sg_thumbs li:hover {
+  opacity: 1; 
+}
